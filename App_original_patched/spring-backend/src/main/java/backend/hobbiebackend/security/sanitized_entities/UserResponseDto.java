@@ -7,27 +7,16 @@ public class UserResponseDto {
     private GenderEnum gender;
     private String email;
     private String username;
-    private Long id;
 
     public UserResponseDto() {
     }
 
-    public UserResponseDto(String fullName, GenderEnum gender, String email, String username,Long id) {
+    public UserResponseDto(String fullName, GenderEnum gender, String email, String username) {
         this.fullName = fullName;
         this.gender = gender;
         this.email = email;
         this.username = username;
-        this.id = id;
     }
-    
-    public Long getId() {
-        return id;
-    }
-
-    public void setId(Long id) {
-        this.id = id;
-    }
-
     public String getFullName() {
         return fullName;
     }
