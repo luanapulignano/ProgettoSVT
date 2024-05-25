@@ -8,12 +8,12 @@ L'app è suddivisa in 4 cartelle:
 - La versione fixed delle vulnerabilità non presenti inizialmente: App_new_vulnerabilities_patched
 
 Prerequisiti:
--Java v11+
--npm v10.5.0
--NodeJs v12.22.9
--JDK v11.0.11
--Docker v24.0.5
--docker-compose v1.29.2
+- Java v11+
+- Npm v10.5.0
+- NodeJs v12.22.9
+- JDK v11.0.11
+- Docker v24.0.5
+- Docker-compose v1.29.2
 
 L'applicazione è stata testata su Windows 11.
 
