@@ -17,7 +17,10 @@ Prerequisiti:
 
 L'applicazione è stata testata su Windows 11.
 
-Per avviare il front-end: posizionarsi nella cartella react-frontend e digitare "npm start"
+NOTA:
+affinchè l' applicazione possa funzionare sul front-end in un sistema basato su Linux (testato su Ubuntu 22.04), posizionarsi nella cartella "react-frontend" e sostituire il package.json di quella cartella con quello fornito nella directory "package_da_sostituire_se_si_usa_Linux" di questa repo.
+
+Per avviare il front-end: posizionarsi nella cartella react-frontend e digitare "npm i", accettare tutto e poi digitare "npm start"
 Per avviare il back-end: posizionarsi nella cartella spring-backend e digitare "docker-compose up --build"
 
 Il front-end viene eseguito all' indirizzo http://localhost:4200
