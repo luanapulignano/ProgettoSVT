@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="node_modules/react-native/ReactAndroid/src/androidTest/java"/>
+	<classpathentry kind="src" path="node_modules/react-native/ReactAndroid/src/main/java"/>
+	<classpathentry kind="src" path="node_modules/react-native/ReactAndroid/src/test/java"/>
+	<classpathentry kind="src" path="node_modules/react-native/template/android/app/src/debug/java"/>
+	<classpathentry kind="src" path="node_modules/react-native/template/android/app/src/main/java"/>
+	<classpathentry kind="src" path="node_modules/react-native-gradle-plugin/src/main/java"/>
+	<classpathentry kind="lib" path="node_modules/jetifier/lib/annotations-13.0.jar"/>
+	<classpathentry kind="lib" path="node_modules/jetifier/lib/asm-6.0.jar"/>
+	<classpathentry kind="lib" path="node_modules/jetifier/lib/asm-commons-6.0.jar"/>
+	<classpathentry kind="lib" path="node_modules/jetifier/lib/asm-tree-6.0.jar"/>
+	<classpathentry kind="lib" path="node_modules/jetifier/lib/asm-util-6.0.jar"/>
+	<classpathentry kind="lib" path="node_modules/jetifier/lib/commons-cli-1.3.1.jar"/>
+	<classpathentry kind="lib" path="node_modules/jetifier/lib/gson-2.8.0.jar"/>
+	<classpathentry kind="lib" path="node_modules/jetifier/lib/jdom2-2.0.6.jar"/>
+	<classpathentry kind="lib" path="node_modules/jetifier/lib/jetifier-core-1.0.0-beta09.jar"/>
+	<classpathentry kind="lib" path="node_modules/jetifier/lib/jetifier-processor-1.0.0-beta09.jar"/>
+	<classpathentry kind="lib" path="node_modules/jetifier/lib/jetifier-standalone.jar"/>
+	<classpathentry kind="lib" path="node_modules/jetifier/lib/kotlin-stdlib-1.3.60.jar"/>
+	<classpathentry kind="lib" path="node_modules/jetifier/lib/kotlin-stdlib-common-1.3.60.jar"/>
+	<classpathentry kind="lib" path="node_modules/react-native/android/com/facebook/react/react-native/0.68.1/react-native-0.68.1-sources.jar"/>
+	<classpathentry kind="lib" path="node_modules/react-native/ReactAndroid/src/main/third-party/java/buck-android-support/buck-android-support.jar"/>
+	<classpathentry kind="lib" path="node_modules/react-native/template/android/gradle/wrapper/gradle-wrapper.jar"/>
+	<classpathentry kind="lib" path="node_modules/react-native-gradle-plugin/gradle/wrapper/gradle-wrapper.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
