@@ -22,6 +22,7 @@ import java.io.IOException;
 import java.io.UnsupportedEncodingException;
 import java.net.URLDecoder;
 import java.nio.charset.StandardCharsets;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Set;
 
@@ -135,10 +136,15 @@ public class HobbyController {
 
     @GetMapping("/saved")
     @Operation(summary = "Show hobbies that are saved in favorites", security = @SecurityRequirement(name = "bearerAuth"))
-    public List<Hobby> savedHobbies(@RequestParam String username) {
+    public List<HobbyResponseDto> savedHobbies(@RequestParam String username) {
         AppClient appClient = this.userService.findAppClientByUsername(username);
-        return this.hobbyService.findSavedHobbies(appClient);
-
+        List <Hobby> myHobbies = hobbyService.findSavedHobbies(appClient);
+        List <HobbyResponseDto> myHobbiesDto = new ArrayList<>();
+        for (Hobby hobby : myHobbies){
+            HobbyResponseDto responseDto = modelMapper.map(hobby, HobbyResponseDto.class);
+            myHobbiesDto.add(responseDto);
+        }
+        return myHobbiesDto;
     }
 }
 

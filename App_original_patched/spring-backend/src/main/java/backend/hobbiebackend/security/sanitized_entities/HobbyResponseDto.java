@@ -3,6 +3,7 @@ package backend.hobbiebackend.security.sanitized_entities;
 import java.math.BigDecimal;
 
 public class HobbyResponseDto {
+    private int id;
     private String name;
     private String slogan;
     private String intro;
@@ -25,6 +26,13 @@ public class HobbyResponseDto {
     // Metodi getter e setter
     public String getName() {
         return name;
+    }
+
+    public void setId(int id) {
+        this.id=id;
+    }
+    public int getId() {
+        return id;
     }
 
     public void setName(String name) {
