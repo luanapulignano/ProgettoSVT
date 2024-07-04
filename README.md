@@ -26,5 +26,9 @@ affinchè l' applicazione possa funzionare sul front-end in un sistema basato su
 Per avviare il front-end: posizionarsi nella cartella react-frontend e digitare "npm i", accettare tutto e poi digitare "npm start"
 Per avviare il back-end: posizionarsi nella cartella spring-backend compilare con maven eseguendo "mvn package" e digitare "sudo docker-compose up --build"
 
+Utenti di default:
+1) username: user  password: topsecret
+2) username: business  password: topsecret
+
 Il front-end viene eseguito all' indirizzo http://localhost:4200
 Il back-end viene eseguito all' indirizzo http://localhost:8080
