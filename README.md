@@ -15,7 +15,8 @@ Prerequisiti:
 - Docker v24.0.5
 - Docker-compose v1.29.2
 
-Ova file per la VM Ubuntu con tutto già preinstallato: https://www.dropbox.com/scl/fi/t4p4bwzi0dhjxncxv9aaw/Ubuntuuu.ova?rlkey=1jfy05zgu4uhe5s97bwjl0swr&dl=0
+Ova file per la VM Ubuntu con tutto già preinstallato: 
+https://www.dropbox.com/scl/fi/mfajr9l15lr7hbquhytum/SVTProject.ova?rlkey=nc40gcuvby9pckeqqbilthwbl&dl=0
 Credenziali Virtual Machine: user user
 
 
