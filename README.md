@@ -21,7 +21,7 @@ Ova file per la VM Ubuntu con tutto già preinstallato: https://www.dropbox.com/
 L'applicazione è stata testata su Windows 11.
 
 NOTA:
-affinchè l' applicazione possa funzionare sul front-end in un sistema basato su Linux (testato su Ubuntu 22.04), posizionarsi nella cartella "react-frontend" e sostituire il package.json di quella cartella con quello fornito nella directory "package_da_sostituire_se_si_usa_Linux" di questa repo.
+affinchè l' applicazione possa funzionare sul front-end in un sistema basato su Linux (testato su Ubuntu 22.04), posizionarsi nella cartella "react-frontend" e sostituire la riga "SET PORT=4200 && react-scripts start" con "PORT=4200 react-scripts start".
 
 Per avviare il front-end: posizionarsi nella cartella react-frontend e digitare "npm i", accettare tutto e poi digitare "npm start"
 Per avviare il back-end: posizionarsi nella cartella spring-backend compilare con maven eseguendo "mvn package" e digitare "sudo docker-compose up --build"
