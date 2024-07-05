@@ -16,6 +16,7 @@ Prerequisiti:
 - Docker-compose v1.29.2
 
 Ova file per la VM Ubuntu con tutto già preinstallato: https://www.dropbox.com/scl/fi/t4p4bwzi0dhjxncxv9aaw/Ubuntuuu.ova?rlkey=1jfy05zgu4uhe5s97bwjl0swr&dl=0
+Credenziali Virtual Machine: user user
 
 
 L'applicazione è stata testata su Windows 11.
@@ -29,6 +30,7 @@ Per avviare il back-end: posizionarsi nella cartella spring-backend compilare co
 Utenti di default:
 1) username: user  password: topsecret
 2) username: business  password: topsecret
+
 
 Il front-end viene eseguito all' indirizzo http://localhost:4200
 Il back-end viene eseguito all' indirizzo http://localhost:8080
